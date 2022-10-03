@@ -54,3 +54,10 @@ input, select {
     color: red;
 }
 
+td.transacao-despesa{
+    color: red;
+}
+
+td.transacao-receita{
+    color: green;
+}
