@@ -1,0 +1,56 @@
+section.menu-lateral {
+    position: fixed;
+    height: 100vh;
+    background: black;
+    width: 200px;
+}
+
+.logo {
+    width: 100%;
+    display: block;
+}
+
+.logo a {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    display: block;
+    width: 100%;
+    height: 100px;
+    margin: 20px 0px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+/*
+Main
+*/
+
+main {
+    padding-left: 200px;
+}
+
+section.barra-top {
+    background: #fbad30;
+    color: black;
+    min-height: 130px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+input, select {
+    border: 2px solid #fbad30;
+    border-radius: 20px;
+    height: 46px;
+    padding: 0px 20px;
+}
+
+.red{
+    color: red;
+}
+
